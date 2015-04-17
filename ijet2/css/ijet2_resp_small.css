@@ -1,6 +1,7 @@
 /*  
- at 760 (or somewhere just below ipad portrait) the responsive menus module will switch the top menu 
- and a lot of elements disappear or are reshuffled.  this layout should work for any size (withion reason) below 760
+ 760 is just below ipad portrait.
+ The responsive menus module will switch the top menu to the small version and a lot of elements disappear or are reshuffled.  
+ This layout should work for any size (withion reason) below 760
  */
  
 @media only screen and (max-width: 760px) {
@@ -226,16 +227,13 @@
 #block-views-videos-page-block-1 .views-row {
 	min-height: 320px;
 }
-  
-  
+    
   #twitterfooter .region-social{
     clear:both;
   	width: 340px;
   	margin-left:3px;
   }  
-    
 
-  
   #connect_box {
     clear:both;
     width:340px;	
@@ -282,16 +280,18 @@
 	margin-top: 0;
 	padding: 0 5%;
 	width: 100%;
-}
+  }
 
-#twitterfooter,
-#block-block-10 {
-	padding: 0 8%;
-}
+  #twitterfooter,
+  #block-block-10 {
+	  padding: 0 8%;
+  }
   
   
 }
 
+  
+/* 450  */  
   
 @media only screen and (max-width: 450px) {
   
