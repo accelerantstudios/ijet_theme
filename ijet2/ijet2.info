@@ -1,0 +1,40 @@
+name = ijet2
+description = iJet2 is a horizontal adaptive theme specifically for ijet
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/ijet2.css
+stylesheets[all][] = css/mukisa-temp.css
+stylesheets[all][] = css/ijet2_resp_med.css
+stylesheets[all][] = css/ijet2_resp_small.css
+stylesheets[all][] = css/jquery.ui.core.min.css
+stylesheets[all][] = css/jquery.ui.tabs.min.css
+stylesheets[all][] = css/jquery.ui.theme.min.css
+
+scripts[] = js/jquery.ui-1.10.4.tabs.min.js
+scripts[] = js/ijet_special.js
+
+; Most or all pages:
+regions[above_nav] = Above the Nav Menu
+regions[top_nav]   = Top Nav
+regions[sidebar_1] = Sidebar 1
+regions[subheader]   = Subheader
+regions[content]   = Content
+regions[sidebar_2] = Sidebar 2
+
+; Just front page:
+regions[widebox_1] = Wide Box 1 (1st below nav)
+regions[widebox_2] = Wide Box 2 (2nd below nav)
+regions[widebox_3] = Wide Box 3 (3rd below nav)
+regions[widebox_4] = Wide Box 4 (4th below nav)
+
+; Most or all pages:
+regions[social] = Social
+regions[connect] = Connect
+regions[footer_1] = Footer 1
+regions[footer_2] = Footer 2
+
+; Drupal's own.  Leave 'em alone
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom

@@ -1,0 +1,104 @@
+/* Sets of boxes on landing pages */
+
+#glitterboxes_enclosing_box {
+  width:690px;
+  overflow:hidden;
+}
+
+.glitterboxes_row{
+	clear:both;
+}
+
+.glitterboxes_box {
+	margin:4px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	float:left;
+	clear:none;
+	width:220px;
+	height:220px;
+	overflow:hidden;
+}
+
+.glitterbox_content {
+	font-weight:600;
+	font-size:15px;
+  position:relative;
+  min-height:100%;
+  min-width:100%;
+  padding:5px;
+  background:#000;
+  opacity: 0.7;	
+  color:#fff;
+  top:80%;
+}
+.glitterbox_content p{
+	margin-top:6px;
+}
+
+p.glitterbox_blurb {
+	font-weight:normal;
+	font-size:12px;
+	padding:0 6px;
+}
+
+@media only screen and (max-width: 1020px) {
+	#glitterboxes_enclosing_box {
+		
+  }
+  
+  .glitterboxes_box {
+  	width:180px;
+  	height:180px;
+  }
+
+  .glitterbox_content p{
+  	margin-top:4px;
+  	font-size:12px;
+  	line-height:100%;
+  }
+}
+
+
+#block-block-19 input {
+ 	margin-left:18px;
+}
+
+#block-block-19 h2 {
+  font-size:16px;	
+ 	margin: 0;
+}
+
+#block-block-24{
+  padding-top:20px;
+  height:90px;
+  overflow:hidden;
+}
+.fp_fte_headline a {
+  text-decoration:none;
+  color:#000;	
+}
+#experts_read_more_link {
+	display:block;
+}
+
+#experts_read_more_link a{
+  text-decoration:none;
+  color:#555;	
+}
+
+a.block-title-link {
+	text-decoration:none;
+	color:#d89326;
+	
+}
+#view-from-the-experts-page h2 a {
+	text-decoration:none;
+	color:#d89326;
+	display:block;
+}
+.field-name-field-fte-headline {
+	color:#d79600;
+  font-size:20px;
+  margin:8px 0;	
+}

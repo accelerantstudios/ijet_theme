@@ -1,0 +1,477 @@
+/*  
+ at 760 (or somewhere just below ipad portrait) the responsive menus module will switch the top menu 
+ and a lot of elements disappear or are reshuffled.  this layout should work for any size (withion reason) below 760
+ */
+ 
+@media only screen and (max-width: 760px) {
+
+  .mean-container .mean-bar {
+	position: absolute;
+	top: 145px;
+  }
+  
+  .region-subheader {
+	margin: 35px 0 0; 
+  }
+
+	body {
+		position:relative;
+		width:100%;
+	  overflow-x:hidden;	
+	}
+	
+ 	#outer_container{
+    width:100%;
+    overflow:hidden;
+  }
+  
+  .region-widebox-4{
+    width:100%;	
+  }
+  
+  
+  #page{
+    width:95%;	
+  }
+  
+  #content_medium,
+  #content_wide,
+  #content_narrow {
+  	width: 98%;
+    padding:2px 10px;	
+  }
+  
+  #contentsubpage {
+	width: 100%;
+  }
+  
+  #contentsubpage h2{
+  	font-size:30px;
+  }
+  
+   #fp_slideshow {
+	margin-top: 50px;
+	}
+  
+  #sidebar {
+		display:none;	
+  }
+  
+  .overlaytext {
+    height:90%;
+    width:75%;
+    margin-top:-60px;
+  }
+  .overlaytext h1{
+    line-height:115%;	
+  }
+  
+  .overlaytext p{
+    margin-top:2px;	
+  }
+  
+  .slider {
+	background-size: cover ;
+	background-position: 10% 50%;
+
+}
+  
+  .overlaytext .leanmore,
+  .fp-slide-learnmore-link {
+    position:absolute;
+    bottom:10px;
+    left:80px;
+    font-size:18px;
+  }
+
+  .heroprev {
+  	top:280px;
+  	left:10px;
+  }
+  .heronext {
+  	top:226px;
+  	right:-10px;
+  }
+
+  #views_slideshow_controls_text_previous_fp_slideshow_v2-block {
+    top:-135px;
+  	margin-bottom:-204px;
+  }
+  
+  #views_slideshow_controls_text_next_fp_slideshow_v2-block {
+    top:-135px;
+  	margin-bottom:-204px;
+    padding: 100px 30px 100px 30px;
+  }
+
+  #block-views-front-lines-headlines-block{ 
+	  margin:0 10px;
+  }
+  
+  #fp_frontlines .region h2 {
+    padding-left:0;	
+  }
+  
+  .views-field-field-fl-type {
+  	display:block;
+    clear:both;	
+  }
+  	
+  .view-front-lines-headlines {
+
+  }
+  
+  .view-front-lines-headlines .views-row {
+    padding: 0;
+  }
+  
+  #fp_frontlines{
+  		
+  }
+
+  .view-front-lines-headlines,
+  .view-front-lines-headlines a,
+  .view-front-lines-headlines a:active,
+  .view-front-lines-headlines a:visited,
+  .view-front-lines-headlines a:hover
+  {
+    color: #333333;
+  	font-size: 18px;
+  }
+
+  #fp_frontlines h2{
+    font-size:26px;	
+  }
+  
+  #views_slideshow_cycle_div_front_lines_headlines-block_0,
+  #views_slideshow_cycle_div_front_lines_headlines-block_1,
+  #views_slideshow_cycle_div_front_lines_headlines-block_2 {
+   	width:400px !important;
+  }
+
+  #fp_frontlines .views-slideshow-controls-bottom {
+    margin: 0;	
+  }
+  #block-block-11{
+    display:none;	
+  }
+  #fp_featured_product .featured_product_image{
+    display:none;	
+  }
+  #fp_featured_product .featured_product_body {
+    width:90%;	
+  }
+  .featured_product_link {
+    padding:0;
+  }
+  .featured_product_link a{
+    padding:4px;
+  }
+
+
+
+  #fp_experts{
+    height:auto;
+  	background-image:url(/sites/all/themes/ijet2/images/v2_images/bkg_from_our_experts.png);
+  	background-size:auto 100%;
+  	background-repeat:no-repeat;
+  }
+    
+  .fp_fte_thumbnail_wrapper {
+  	clear:both;
+	  margin-top:10px;
+  }
+  
+  
+  
+  #fp_experts #block-views-0ca82bcd88cba85018ff4770b4f7fbb4 {
+    height:auto;	
+  }
+  
+  #fp_experts #block-views-0ca82bcd88cba85018ff4770b4f7fbb4 h2{
+    font-size:32px;	
+  }
+  .fp_fte_headline,
+  .fp_fte_body {
+    width:340px;	
+  }
+  
+  
+  .fte_bottom_link{
+    border:2px solid #666;
+    clear:both;
+    padding:4px 10px;
+    margin-left:3px;
+    width:160px;
+  }
+  	
+  
+  .fte_bottom_link a{
+  	
+  }
+  
+  #fp_experts #block-views-bf05a42bbecdbefae2546cfd7d4a20fd {
+    height:auto;	
+    padding-top:5px;
+  }
+  
+  
+  #block-views-videos-page-block-1 .views-field-title, 
+  #block-views-videos-page-block-1 .views-field-field-video-date, 
+  #block-views-videos-page-block-1 .views-field-field-video-description {
+	float: left;
+	width: 100%;
+}
+
+#block-views-videos-page-block-1 .views-row {
+	min-height: 320px;
+}
+  
+  
+  #twitterfooter .region-social{
+    clear:both;
+  	width: 340px;
+  	margin-left:3px;
+  }  
+    
+
+  
+  #connect_box {
+    clear:both;
+    width:340px;	
+    margin-left:0;
+  }
+  
+  #block-webform-client-block-899 label{
+    width:300px;	
+  }
+  
+  #footer{
+    height:125px;
+    	
+  } 
+  
+  #footermenu{
+    display:none;	
+  }
+  
+  #footerhalfleft,
+  #footerhalfright{
+  	margin:8px 5px;
+  	padding:0;
+    clear:both;
+    width: 280px;	
+  }
+  
+.contentwithleftbox {
+	border-right: 0;
+	float: none;
+	padding: 0 15%;
+	width: 100%;
+}
+
+.contentwithrightbox {
+	border-right: 0;
+	float: none;
+	padding: 0 15%;
+	width: 100%;
+}
+
+.rightsidebar {
+	float: none;
+	margin-top: 0;
+	padding: 0 5%;
+	width: 100%;
+}
+
+#twitterfooter,
+#block-block-10 {
+	padding: 0 8%;
+}
+  
+  
+}
+
+  
+@media only screen and (max-width: 450px) {
+  
+   .mean-container .mean-bar {
+	position: absolute;
+	top: 145px;
+  }
+  
+  .front .region-subheader {
+	margin: 35px 0 0; 
+  }
+  
+   .not-front .region-subheader {
+	margin: 63px 0 0; 
+  }
+  
+    #contentsubpage {
+	width: 100%;
+  }
+  
+  #fp_slideshow {
+	margin-top: 50px;
+	}
+  
+ .view-front-lines-headlines {
+	color: #333333;
+	font-size: 22px;
+	top: 80px;
+	position: relative;
+	float: none;
+	margin-left: 0;
+	margin-top: 0;
+}
+ 
+  #fp_frontlines .views_slideshow_cycle_teaser_section {
+ 	  height:105px;
+ 	}
+ 
+#fp_frontlines .views-slideshow-controls-bottom {
+	bottom: 25px;
+	display: block;
+	position: relative;
+	width:100px;
+	margin:0 150px;
+}
+
+#block-block-11 {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	display: block;
+	margin: 55px 0;
+	position: relative;
+}
+ 
+.qtip {
+	display: none;
+	visibility: hidden;
+} 
+
+  
+  #three_links_top1, #three_links_top2, #three_links_top3 {
+	  margin: 1px 0 0 0;
+    clear:both;
+    padding:4px 10px;
+    width:95%;
+	}
+  
+  /*top slider area*/
+  
+  .overlaytext h1{
+  	margin-left: -80px;
+  	margin-top: 60px;
+  	font-size: 32px;
+  	width:410px;
+  	text-shadow: -2px 0px 3px rgba(0, 0, 0, 0.6);
+  } 
+  .overlaytext p {
+      margin-left: -80px;
+  	font-size: 20px;
+      margin-top: 20px;
+      color: #000;
+      text-shadow: -2px 0px 3px rgba(0, 0, 0, 0.6);
+  }
+  #fp-slide-learnmore-link{
+  	margin-top:300px;
+  }
+  
+  .overlaytext .leanmore,
+  .fp-slide-learnmore-link {
+  	  left:10px;
+  }
+  #views_slideshow_cycle_teaser_section_fp_slideshow_v2-block, .view-fp-slideshow-v2 .views-slideshow-cycle-main-frame-row {
+      height: 320px !important;
+      width: 100% !important;
+  }
+  .slider {
+      background-position: 1100px center;
+      background-size: cover;
+      clear: both;
+      height: 320px;
+      position: relative;
+      z-index: 0;
+  }
+  .heroprev {
+  	width: 68px;
+  	float: left;
+  	position:relative;
+  	top:270px;
+  	left:20px;
+  }
+  .heronext {
+  	width: 68px;
+  	float: right;
+  	position:relative;
+  	top:220px;
+  	right:0px;
+  }
+  .fp-slide-learnmore-link {
+  	margin-bottom:-30px;
+  	margin-left:25px;
+  }
+  
+  #block-views-videos-page-block-1 .views-field-title, 
+  #block-views-videos-page-block-1 .views-field-field-video-date, 
+  #block-views-videos-page-block-1 .views-field-field-video-description {
+	float: left;
+	width: 100%;
+}
+
+#block-views-videos-page-block-1 .views-row {
+	min-height: 320px;
+}
+
+.fte_bottom_link {
+	width: 95%;
+}
+  
+#block-block-24 {
+	padding-bottom: 30px;
+}
+
+  
+#sidebar {
+	display:none;	
+}
+
+.contentwithleftbox {
+	border-right: 0;
+	float: none;
+	padding: 0 15%;
+	width: 100%;
+}
+
+.contentwithrightbox {
+	border-right: 0;
+	float: none;
+	padding: 0 15%;
+	width: 100%;
+}
+
+.rightsidebar {
+	float: none;
+	margin-top: 0;
+	padding: 0 5%;
+	width: 100%;
+}
+
+#twitterfooter,
+#block-block-10 {
+	padding: 0 8%;
+}
+  
+  #connect_box p{
+    width:225px;	
+  }
+  
+  #footerinfo {
+    width:740px;	
+  }
+  #footerhalfleft, #footerhalfright {
+    width:260px;	
+  }
+  
+}

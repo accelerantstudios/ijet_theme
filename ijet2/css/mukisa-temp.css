@@ -1,0 +1,54 @@
+#block-superfish-2 ul li ul li {
+	background: none repeat scroll 0 0 #000;
+}
+
+#block-superfish-2 ul li ul li {
+  background: none repeat scroll 0 0 #edebe8;
+  padding: 0 10px;
+  width: 85px;
+}
+
+#block-superfish-2  ul li ul li a {
+	border-bottom: 1px solid #000;
+	color: #000;
+	padding: 10px 0;
+}
+
+#block-superfish-2 ul li ul li:last-child a {
+	border-bottom: none;
+}
+
+#block-views-videos-page-block-1 .views-row {
+	border-bottom: 2px solid #808080;
+	min-height: 170px;
+}
+
+#block-views-videos-page-block-1 .views-row:last-child {
+	border-bottom: 0;
+}
+
+#block-views-videos-page-block-1 .views-field-colorbox {
+	display: inline-block;
+	float: left;
+	padding: 5px 20px;
+	position: relative;
+}
+
+
+#block-views-videos-page-block-1 .views-field-title {
+	color: #d89326;
+    font: 100 18px/24px "Open Sans",Arial,Helvetica,sans-serif;
+    margin-top: 10px;
+}
+
+#block-views-videos-page-block-1 .views-field-field-video-description  {
+	font-size: 12px;
+}
+
+#block-views-videos-page-block-1 .views-field-title,
+#block-views-videos-page-block-1 .views-field-field-video-date,
+#block-views-videos-page-block-1 .views-field-field-video-description {
+	float: right;
+	display: inline-block;
+	width: 70%;
+}

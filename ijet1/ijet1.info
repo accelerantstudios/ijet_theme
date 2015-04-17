@@ -1,0 +1,57 @@
+name = ijet1
+description = iJet1 is a variation on skeletontheme by Accelerant
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/ijet1.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/buttons.css
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = color/colors.css
+; temporary msh for dev.  Some of these may be used only for front page. all will have to be combined....
+stylesheets[all][] = css/ijet_JF01.css
+stylesheets[all][] = css/ijet_JF02.css
+stylesheets[all][] = css/jquery.ui.core.min.css
+stylesheets[all][] = css/jquery.ui.tabs.min.css
+stylesheets[all][] = css/jquery.ui.theme.min.css
+
+scripts[] = js/jquery.ui-1.10.4.tabs.min.js
+scripts[] = js/ijet_special.js
+scripts[] = js/timeline.js
+scripts[] = js/dump.js
+
+
+regions[header_top_left] = Header top left
+regions[header_top_right] = Header top right
+
+regions[header_right] = Header right
+regions[header] = Header
+regions[highlighted] = Highlighted
+
+regions[fp_tabs] = Front Page Tabs 
+regions[content] = Content
+regions[frontlines_boxes] = Front Lines Boxes (fp)
+regions[featured_product] = Featured Product Boxes (fp)
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[featured_left] = Featured left
+regions[featured_right] = Featured right
+
+regions[footer_first] = Footer first
+regions[footer_second] = Footer second
+regions[footer_third] = Footer third
+regions[footer] = Footer
+
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+settings[responsive_menu_state]= 1
+settings[responsive_menu_switchwidth]='760'
+settings[responsive_menu_topoptiontext]= 'Select a page'
+
+version = "7.x-1.4"
+core = "7.x"
+project = "ijet1"
+
