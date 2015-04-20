@@ -251,3 +251,11 @@
   	line-height:100%;
   }
 }
+
+@media only screen and (max-width: 776px) {
+	/* iPad Portrait is 768 wide */
+	.view-front-lines-headlines {
+	  margin:28px 0 0 20px;	
+	}
+  	
+}
