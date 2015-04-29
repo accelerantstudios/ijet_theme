@@ -79,19 +79,18 @@
 ?>
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
-    <h2>News Item</h2>
   <?php print render($title_prefix); ?>
-    <h3<?php print $title_attributes; ?>>
-      <?php 
-      /* print $title; // headline field does that.  May need to display conditionally */ 
+    <h2<?php print $title_attributes; ?>>
+      <?php
+      print $title; // headline field does that.  May need to display conditionally */ 
       ?>
-    </h3>
+    </h2>
 
   <?php print render($title_suffix); ?>
 
   <div class="content clearfix"<?php print $content_attributes; ?>>
     <?php
-      // We hide the comments and links now so that we can render them later.
+      // We hide the comments and links now so that we can render them later. (...NOT.   MSH)
       hide($content['comments']);
       hide($content['links']);
       print render($content);

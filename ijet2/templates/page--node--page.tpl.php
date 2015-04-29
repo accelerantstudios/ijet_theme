@@ -1,5 +1,4 @@
 <?php      
-//kpr($page['content']['system_main']['nodes'][1]['body']['#object']->field_banner_subtitle['und'][0]['safe_value']);
 ?>
   <div id="above_nav">
     &nbsp;<?php print render ($page['above_nav']); ?>
