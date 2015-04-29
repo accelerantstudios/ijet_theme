@@ -223,9 +223,15 @@
   	width: 360px;
   	margin-left:12px;
   }  
-    
+  
+  
+  
   #connect_box {
     margin-left:4%;
+  }
+  
+  #footermenu ul.menu li {
+    margin: 0 0 0 0.2em;	
   }
   
   #footermenu ul li {
@@ -237,7 +243,10 @@
   #footerinfo {
     width:1020px;	
   }
-  
+  	
+  #footer_logo {
+  	padding-left: 3px;
+  }
   
     
   .glitterboxes_box {
@@ -257,5 +266,5 @@
 	.view-front-lines-headlines {
 	  margin:28px 0 0 20px;	
 	}
-  	
+
 }

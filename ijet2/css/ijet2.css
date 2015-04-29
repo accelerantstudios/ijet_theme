@@ -1117,6 +1117,7 @@ on the ens of the banner. kludge happens....
     border-radius: 10px;
     margin-top: -40px;
     float: left;
+    cursor:pointer;
 }
 
 #connect_box a,
