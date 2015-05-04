@@ -6,6 +6,8 @@
  
 @media only screen and (max-width: 760px) {
 
+
+
   .mean-container .mean-bar {
 	position: absolute;
 	top: 145px;
@@ -17,13 +19,17 @@
 
 	body {
 		position:relative;
-		width:100%;
+		width:101%;
 	  overflow-x:hidden;	
 	}
 	
  	#outer_container{
     width:100%;
     overflow:hidden;
+  }
+  
+  #above_nav{
+    overflow:hidden;	
   }
   
   .region-widebox-4{
@@ -49,6 +55,16 @@
   #contentsubpage h2{
   	font-size:30px;
   }
+  
+  #logo_and_nav{
+    width:100%;
+    overflow:hidden;	
+  }
+  #fp_frontlines {
+    width:100%;
+    overflow:hidden;	
+  }
+  
   
    #fp_slideshow {
 	margin-top: 50px;
@@ -125,6 +141,12 @@
   .view-front-lines-headlines .views-row {
     padding: 0;
   }
+  
+  #views_slideshow_cycle_main_fp_slideshow_v2-block {
+  	width:100%;
+  	overflow-x:hidden;
+  }
+  
   
   #fp_frontlines{
   		
@@ -220,28 +242,33 @@
   #block-views-videos-page-block-1 .views-field-title, 
   #block-views-videos-page-block-1 .views-field-field-video-date, 
   #block-views-videos-page-block-1 .views-field-field-video-description {
-	float: left;
-	width: 100%;
-}
+	  float: left;
+	  width: 100%;
+  }
 
-#block-views-videos-page-block-1 .views-row {
-	min-height: 320px;
-}
-    
+  #block-views-videos-page-block-1 .views-row {
+	  min-height: 320px;
+  }
+  
+  #twitterfooter{
+    width:100%;
+    overflow:hidden;	
+  }  
+  
   #twitterfooter .region-social{
     clear:both;
-  	width: 340px;
+  	width: 50%;
   	margin-left:3px;
   }  
 
   #connect_box {
     clear:both;
-    width:340px;	
+    width:50%;	
     margin-left:0;
   }
   
   #block-webform-client-block-899 label{
-    width:300px;	
+    width:200px;	
   }
   
   #footer{
@@ -281,23 +308,40 @@
 	padding: 0 5%;
 	width: 100%;
   }
-
+  
+  .front #twitterfooter {
+    width:100%;	
+    overflow:hidden;
+  }
+  
   #twitterfooter,
   #block-block-10 {
-	  padding: 0 8%;
+	  padding: 0;
   }
   
   
 }
 
   
-/* 450  */  
+/* 380  */  
   
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 380px) {
+	
+	
+  /*div, span, p {border:1px solid #f00 !important;} /* debugging only */
   
+	body {
+   	width:101%;
+	 	overflow-x:hidden;
+	 	/*background:#800;*/
+  }
+
    .mean-container .mean-bar {
 	position: absolute;
 	top: 145px;
+  }
+  #logo_and_nav_inner {
+    width:100%;	
   }
   
   .front .region-subheader {
@@ -308,13 +352,33 @@
 	margin: 63px 0 0; 
   }
   
-    #contentsubpage {
-	width: 100%;
+  #contentsubpage {
+	  width: 100%;
   }
   
-  #fp_slideshow {
-	margin-top: 50px;
-	}
+  #above_nav{
+    overflow:hidden;	
+  }
+  
+  #views_slideshow_cycle_main_fp_slideshow_v2-block {
+  	width:100%;
+  	overflow-x:hidden;
+  }
+
+  
+  
+  #views_slideshow_cycle_div_front_lines_headlines-block_0,
+  #views_slideshow_cycle_div_front_lines_headlines-block_1,
+  #views_slideshow_cycle_div_front_lines_headlines-block_2 {
+   	width:100% !important;
+  }
+  
+  
+  
+  .views-slideshow-cycle-main-frame-row-item {
+    width:100%;	
+  }
+  
   
  .view-front-lines-headlines {
 	color: #333333;
@@ -424,6 +488,10 @@
 	min-height: 320px;
 }
 
+#block-views-front-lines-headlines-block {
+  width:100%;	
+}
+
 .fte_bottom_link {
 	width: 95%;
 }
@@ -436,6 +504,8 @@
 #sidebar {
 	display:none;	
 }
+
+
 
 .contentwithleftbox {
 	border-right: 0;
@@ -461,17 +531,32 @@
 #twitterfooter,
 #block-block-10 {
 	padding: 0 8%;
+	
 }
-  
+
+  #twitterfooter {
+	padding: 0;
+	
+}
+#fp_experts #block-views-0ca82bcd88cba85018ff4770b4f7fbb4 {
+    padding:0 0 0 6px;	
+  }
+
+  #footer_inner {
+    width:100%;	
+  }
+  #connect_now_box {
+    width:100%;	
+  }
   #connect_box p{
-    width:225px;	
+    width:150px;	
   }
   
   #footerinfo {
-    width:740px;	
+    width:100%;	
   }
   #footerhalfleft, #footerhalfright {
-    width:260px;	
+    width:80%;	
   }
   
 }
