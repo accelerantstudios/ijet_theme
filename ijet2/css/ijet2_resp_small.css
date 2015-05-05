@@ -6,8 +6,6 @@
  
 @media only screen and (max-width: 760px) {
 
-
-
   .mean-container .mean-bar {
 	position: absolute;
 	top: 145px;
@@ -272,8 +270,7 @@
   }
   
   #footer{
-    height:125px;
-    	
+    height:135px;	
   } 
   
   #footermenu{
@@ -326,7 +323,6 @@
 /* 380  */  
   
 @media only screen and (max-width: 380px) {
-	
 	
   /*div, span, p {border:1px solid #f00 !important;} /* debugging only */
   
@@ -444,7 +440,7 @@
   
   .overlaytext .leanmore,
   .fp-slide-learnmore-link {
-  	  left:10px;
+  	  left:-5px;
   }
   #views_slideshow_cycle_teaser_section_fp_slideshow_v2-block, .view-fp-slideshow-v2 .views-slideshow-cycle-main-frame-row {
       height: 320px !important;
@@ -559,4 +555,36 @@
     width:80%;	
   }
   
+}
+
+/* iPhone 5 */
+
+@media only screen and (max-width: 330px) {
+  .featured_logo {
+  	clear:both;
+  	margin:0;
+  }	
+  
+  .fte_bottom_link {
+    width:90%;	
+  }
+  
+  .fp-slide-learnmore-link {
+    margin-left:-5px;	
+  }
+  
+  #block-views-front-lines-headlines-block {
+    width:98%;	
+  }
+  #fp_frontlines .views-slideshow-controls-bottom {
+    margin-left:120px;	
+  }
+  #block-block-11{
+    display:none;	
+  }
+
+  #twitterfooter .region-social {
+    width:318px;;	
+  }
+	
 }
