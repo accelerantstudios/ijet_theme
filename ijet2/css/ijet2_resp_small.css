@@ -255,7 +255,7 @@
   
   #twitterfooter .region-social{
     clear:both;
-  	width: 50%;
+  	width: 300px;
   	margin-left:3px;
   }  
 
@@ -322,7 +322,7 @@
   
 /* 380  */  
   
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 415px) {
 	
   /*div, span, p {border:1px solid #f00 !important;} /* debugging only */
   
@@ -399,10 +399,11 @@
 }
 
 #block-block-11 {
-	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	display:none;
+	/*background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
 	display: block;
 	margin: 55px 0;
-	position: relative;
+	position: relative;*/
 }
  
 .qtip {
