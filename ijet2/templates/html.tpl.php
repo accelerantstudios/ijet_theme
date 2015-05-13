@@ -48,6 +48,8 @@
 <head profile="<?php print $grddl_profile; ?>">
   <?php print $head; ?>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+  <!-- link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' -->
+  <!--link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' -->
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
