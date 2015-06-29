@@ -1694,14 +1694,18 @@ a.twitter-timeline:focus {
 }
 
 .contentwithrightbox{
-	width: 45%;
+/*	width: 45%;*/
+	width: 65%;
+	position: relative;
+	display: inline-block;
 	float: left;
 	border-right: 1px solid rgba(181,181,181,1.00);
 	padding-right: 20px;
 }
 
 .rightsidebar {
-	width: 28%;
+/*	width: 28%;*/
+	width: 22%;
 	padding-left: 25px;
 	float: right;
 	margin-top:10px;
@@ -1721,7 +1725,8 @@ a.twitter-timeline:focus {
 }
 
 #sidebar {
-	width: 170px;
+/*	width: 170px;*/
+width: 22%;
 	float: left;
 	margin-right: 25px;
 	padding-left: 3px;
