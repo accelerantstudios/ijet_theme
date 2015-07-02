@@ -4,7 +4,6 @@ version = VERSION
 core = 7.x
 
 stylesheets[all][] = css/ijet2.css
-stylesheets[all][] = css/mukisa-temp.css
 stylesheets[all][] = css/ijet2_resp_med.css
 stylesheets[all][] = css/ijet2_resp_small.css
 stylesheets[all][] = css/jquery.ui.core.min.css
