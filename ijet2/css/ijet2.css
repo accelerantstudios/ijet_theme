@@ -1694,7 +1694,6 @@ a.twitter-timeline:focus {
 }
 
 .contentwithrightbox{
-/*	width: 45%;*/
 	width: 65%;
 	position: relative;
 	display: inline-block;
@@ -1707,7 +1706,7 @@ a.twitter-timeline:focus {
 	width: 28%;
 	padding-left: 25px;
 	float: right;
-	margin-top:10px;
+	margin-top: 10px;
 }
 
 .rightsidebar li{
